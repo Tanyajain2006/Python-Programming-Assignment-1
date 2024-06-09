@@ -1,4 +1,6 @@
+def age(birth_year, current_year):
+    return current_year - birth_year
+
 birth_year = int(input("Enter birth year: "))
 current_year = int(input("Enter current year: "))
-age = current_year - birth_year
-print(age)
+print(age(birth_year, current_year))

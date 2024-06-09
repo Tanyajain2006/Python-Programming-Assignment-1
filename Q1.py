@@ -1,3 +1,6 @@
+def sum(a, b):
+    return a + b
+
 a = float(input("Enter no1: "))
 b = float(input("Enter no2: "))
-print("Sum: ", a+b)
+print("Sum:", sum(a, b))

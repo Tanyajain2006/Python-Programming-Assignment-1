@@ -1,3 +1,5 @@
+def upper(str1):
+    return str1.upper()
+
 str1 = input("Enter string: ")
-ans = str1.upper()
-print(ans)
+print(upper(str1))
